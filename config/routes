@@ -1,2 +1,2 @@
-
-root 'index'
+root 'users#new'
+get "users/new"
