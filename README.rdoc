@@ -1,5 +1,0 @@
-== Dropshare
-
-Dropshare is a web-based application to easily, effectively, and quickly share your files between friends.
-
-Dropshare links your Facebook and your Dropbox, and lets you only share files to friends on Facebook.
