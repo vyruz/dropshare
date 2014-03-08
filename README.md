@@ -10,18 +10,18 @@ Dropshare is a web based platform that connects Facebook and Dropbox to provide 
 3.  Make sharing between friends universal to operating system
 
 **Views:**
-1.  Login page to create a Dropshare user account
+- Login page to create a Dropshare user account
     - This is a pure login page. Different from home page.
-2.  User page to show the users profile
+- User page to show the users profile
     - This includes a settings view, and a status view
-3.  Home page. This is the dashboard for everything going on in Dropshare
+- Home page. This is the dashboard for everything going on in Dropshare
     - This includes links to the settings page, and will include simple links to     move things between friends on Facebook/Drive
-4.  User “Wall” that shows a log of public File sends to the person.
+- User “Wall” that shows a log of public File sends to the person.
     - Sends can be made private or public.
     - This is a profile page that if seen by the user shows all file transfers to    them
         + If set to private, the file transfer is hidden from all else
     - Profiles pull profile picture from Facebook
-5.  Creating an account/Linking it to Drive and Facebook
+- Creating an account/Linking it to Drive and Facebook
     - Must have way to connnect to both Drive and Facebook
 
 **Shareholders:**
@@ -39,6 +39,8 @@ __User Roles:__
 *   Luke Woodruff
 
 **Skills:**
+
+---
 
 - All group members have had solid experience in programming in multiple other
 languages
