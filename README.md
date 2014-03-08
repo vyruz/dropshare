@@ -38,9 +38,9 @@ __User Roles:__
 *   Dylan Shepard
 *   Luke Woodruff
 
-**Skills:**
-
 ---
+
+**Skills:**
 
 - All group members have had solid experience in programming in multiple other
 languages
