@@ -1,0 +1,11 @@
+.center.hero-unit
+  %h1 Welcome to Dropshare
+  %h2
+    This is the home page for Dropshare
+  %p (at least for time being)
+  = link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary"
+/
+  <haml:loud> provide(:title, &amp;#39;Home&amp;#39;)</haml:loud>
+  <h1>Home</h1>
+  <p>This is the home page (for the time being) for Dropshare</p>
+  <a href="/signup" class="btn btn-large btn-primary">Sign up now!</a>

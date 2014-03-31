@@ -4,6 +4,8 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.3'
 gem 'bootstrap-sass', '2.3.2.0'
+gem 'google_drive'
+gem 'html2haml'
 gem 'haml-rails'
 
 group :development, :test do
