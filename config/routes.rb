@@ -1,4 +1,8 @@
 Dropshare::Application.routes.draw do
+  get "drive/login"
+  get "drive/upload"
+  get "drive/download"
+  get "drive/logout"
   root 'users#index'
   match '/signup', to: 'users#new', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
