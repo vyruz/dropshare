@@ -1,6 +1,8 @@
 class DriveController < ApplicationController
-  def login(username, password)
-    session[:drive] = GoogleDrive.login(username, password)
+  def login
+    if params[:user].exists?
+      session[:drive] = GoogleDrive.login_with_oauth(params[:user], params[:pass])
+    end
   end
 
   def upload(uploadpath, uploadfile, convertTF)
