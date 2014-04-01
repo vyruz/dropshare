@@ -7,6 +7,9 @@ class CreateUsers < ActiveRecord::Migration
       t.datetime "updated_at"
       t.string   "facebook"
       t.string   "uid"
+      t.string   "provider"
+      t.string   "oauth_token"
+      t.datetime "oauth_expires_at"
     end
   end
   
