@@ -2,6 +2,12 @@
   <% if current_user %>
     Welcome <strong><%= current_user.name %></strong>!
     <%= link_to "Sign out", signout_path, id: "sign_out" %>
+    <% if current_drive %> 
+      you're facebook and drive accounts are connected
+      <%= link_to "Sign out of Drive", drive_logout_path, id: "sign_out" %>
+    <% else %>
+      <%= link_to "sign into Google Drive", "/auth/GoogleDrive", id: "sign_in" %>
+    <% end %>
   <% else %>
     <%= link_to "Sign up with Facebook", "/auth/facebook", id: "sign_in"  %>
   <% end %>
