@@ -13,5 +13,6 @@ class ApplicationController < ActionController::Base
     @current_drive ||= User.find(session[:drive]) if session[:drive]
   end
   
+  helper_method :current_drive
   helper_method :current_user
 end
