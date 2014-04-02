@@ -8,6 +8,7 @@ gem 'google_drive'
 gem 'html2haml'
 gem 'haml-rails'
 gem 'google-api-client'
+gem 'json'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'

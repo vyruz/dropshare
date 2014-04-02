@@ -1,4 +1,5 @@
 class DriveController < ApplicationController
+
   def login
   end
 
@@ -10,6 +11,6 @@ class DriveController < ApplicationController
 
   def logout
   end
+
 end
 
-#Blank skeleton. Do not use old version.

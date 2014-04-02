@@ -1,8 +1,9 @@
 Dropshare::Application.routes.draw do
-  get "drive/login"
+  get "drive/login", to: 'sessions#new', as: 'login'
   get "drive/upload"
   get "drive/download"
-  get "drive/logout"
+  get "drive/logout", to: 'sessions#destroy', as: 'logout'
+  get '/oauth2callback', to: 'sessions#create'
   root 'users#index'
   match '/signup', to: 'users#new', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
