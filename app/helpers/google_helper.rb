@@ -31,6 +31,7 @@ module GoogleHelper
   end
   
   def call_api(path, access_token)
+    access_token.to_s
     url = URI.parse('https://www.googleapis.com')
     http = Net::HTTP.new(url.host, url.port)
     http.use_ssl = true
