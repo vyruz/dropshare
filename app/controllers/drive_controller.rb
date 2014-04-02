@@ -1,21 +1,15 @@
 class DriveController < ApplicationController
   def login
-    if params[:user].exists?
-      session[:drive] = GoogleDrive.login_with_oauth(params[:user], params[:pass])
-    end
   end
 
-  def upload(uploadpath, uploadfile, convertTF)
-    session[:drive].upload_from_file(uploadpath, uploadfile, :convert => convertTF)
-    
+  def upload
   end
 
-  def download(downloadfile, path)
-    @filetodownload = session[:drive].file_by_title(downloadfile)
-    @filetodownload.download_to_file(path)
+  def download
   end
 
   def logout
-    session[:drive] = nil
   end
 end
+
+#Blank skeleton. Do not use old version.
