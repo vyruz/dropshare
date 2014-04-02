@@ -1,7 +1,7 @@
 Dropshare
 =========
 
-[id]: http://imgs.xkcd.com/comics/file_transfer.png
+![XKCD](http://imgs.xkcd.com/comics/file_transfer.png)
 
 Dropshare is a web based platform that connects Facebook and Dropbox to provide a file sharing experience between friends. Dropshare is absolutely free, and can continue to remain so, because it relies on services with already free accounts.
 
