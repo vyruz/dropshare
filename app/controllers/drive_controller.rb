@@ -1,6 +1,7 @@
 class DriveController < ApplicationController
   def login(username, password)
     session[:drive] = GoogleDrive.login(username, password)
+    redirect_to root_url
   end
 
   def upload(uploadpath, uploadfile, convertTF)
@@ -15,5 +16,6 @@ class DriveController < ApplicationController
 
   def logout
     session[:drive] = nil
+    redirect_to root_url
   end
 end
