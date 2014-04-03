@@ -35,7 +35,7 @@ module GoogleHelper
     url = URI.parse('https://www.googleapis.com')
     http = Net::HTTP.new(url.host, url.port)
     http.use_ssl = true
-    http.verify_mode = OpenSSL::SSL::VERIFY_NONE #user verify_peer
+    http.verify_mode = OpenSSL::SSL::VERIFY_NONE #use verify_peer
 
     #Make request to API
     request = Net::HTTP::Get.new(path)
